@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Temperatura</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <script src='javascript.js'></script>
+</head>
+
+<body>
+
+  <header>Conversor de Temperatura ºF e ºC</header><img src="img/temp3.gif">
+
+ <h3>Digite aqui para converter em ºF </h3>
+
+  <fieldset>
+    
+
+    <div>
+      <input type="text" id="t">
+    </div>
+
+    <div>
+      <button class="conversor" onClick=temperaturaCelsiusParaFahrenheit()>Converter</button>
+      <button class="limpar" type="reset">Limpar</button>
+    </div>
+  
+
+  </fieldset>
+
+  <h1>=</h1>
+
+  <fieldset class="resultado">
+    <div id="tempFah"></div>
+  </fieldset>
+
+
+
+  <h3>Digite aqui para converter em ºC </h3>
+
+  <fieldset>
+
+    <div>
+      <input type="text" id="t1">
+    </div>
+    
+    <div>
+      <button class="conversor" onClick=temperaturaFahrenheitParaCelsius()>Converter</button>
+      
+      <button class="limpar" type="reset">Limpar</button>
+    
+    </div>
+  
+
+  </fieldset>
+
+  <h1>=</h1>
+
+  <fieldset class="resultado">
+    <div id="tempCel"></div>
+  </fieldset>
+
+
+
+
+
+
+</body>
+
+
+</html>
